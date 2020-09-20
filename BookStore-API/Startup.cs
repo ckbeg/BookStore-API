@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using AutoMapper;
 using BookStore_API.Contracts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
@@ -12,6 +13,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using BookStore_API.Data;
+using BookStore_API.Mappings;
 using BookStore_API.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -41,6 +43,8 @@ namespace BookStore_API {
                         .AllowAnyHeader());
             });
 
+            services.AddAutoMapper(typeof(Maps));
+
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new OpenApiInfo {
                     Title = "Book Store API",
@@ -54,6 +58,8 @@ namespace BookStore_API {
             });
 
             services.AddSingleton<ILoggerService, LoggerService>();
+
+            services.AddScoped<IAuthorRepository, AuthorRepository>();
 
             services.AddControllers();
         }
@@ -79,6 +85,8 @@ namespace BookStore_API {
             app.UseHttpsRedirection();
 
             app.UseCors("CorsPolicy");
+
+
 
             app.UseRouting();
 

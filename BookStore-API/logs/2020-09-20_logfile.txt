@@ -1,0 +1,32 @@
+2020-09-20 14:09:36.5139 INFO Attempted Get All Authors
+2020-09-20 14:09:38.2234 INFO Successfully got all Authors
+2020-09-20 14:16:58.4518 INFO Attempted Get All Authors
+2020-09-20 14:17:15.6414 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) - System.ComponentModel.Win32Exception (53): Не найден сетевой путь.
+2020-09-20 15:19:42.0152 INFO Attempted to get author with id: 1
+2020-09-20 15:19:43.6810 WARN Author with id:1 was not found
+2020-09-20 15:40:45.9368 INFO Attempted Get All Authors
+2020-09-20 15:40:47.5262 INFO Successfully got all Authors
+2020-09-20 19:57:05.6727 INFO Author submission attempted
+2020-09-20 19:57:05.8175 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2020-09-20 19:57:46.2800 INFO Author submission attempted
+2020-09-20 19:57:47.9933 INFO Author created
+2020-09-20 20:03:54.4388 INFO Author submission attempted
+2020-09-20 20:04:13.8822 ERROR An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): Failed to update database "BookStore" because the database is read-only.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:7c5e82d0-3c80-418d-b04b-a8f40773075a
+Error Number:3906,State:1,Class:16
