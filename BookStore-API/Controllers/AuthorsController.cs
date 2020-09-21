@@ -27,7 +27,10 @@ namespace BookStore_API.Controllers {
             _logger = loggerService;
             _mapper = mapper;
         }
-
+        /// <summary>
+        /// Gets all authors
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -70,7 +73,7 @@ namespace BookStore_API.Controllers {
         }
 
         /// <summary>
-        /// Creates and author
+        /// Creates an author
         /// </summary>
         /// <param name="author"></param>
         /// <returns></returns>
@@ -103,13 +106,14 @@ namespace BookStore_API.Controllers {
         }
 
         /// <summary>
-        /// Updates and author
+        /// Updates an author
         /// </summary>
         /// <param name="id"></param>
         /// <param name="author"></param>
         /// <returns></returns>
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Update(int id, [FromBody] AuthorUpdateDTO authorDTO) {
@@ -144,6 +148,12 @@ namespace BookStore_API.Controllers {
             }
         }
 
+
+        /// <summary>
+        /// Deletes an author
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

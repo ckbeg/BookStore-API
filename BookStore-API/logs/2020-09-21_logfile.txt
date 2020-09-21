@@ -1,0 +1,47 @@
+2020-09-21 16:39:18.9205 INFO Attempt Get all books
+2020-09-21 16:39:20.6310 INFO Successfully got all Books
+2020-09-21 20:11:39.7041 INFO Books - GetBooks: Attempted call
+2020-09-21 20:11:41.2418 INFO Books - GetBooks: Successful
+2020-09-21 20:13:25.4728 INFO Books - GetBook attempted call for id: 1
+2020-09-21 20:13:25.7212 WARN Books - GetBook: Failed to retrive for id: 1
+2020-09-21 20:33:37.5001 INFO Books - Create: Create Attempted
+2020-09-21 20:33:37.6715 ERROR Books - Create: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book - 
+2020-09-21 20:34:32.6749 INFO Books - Create: Create Attempted
+2020-09-21 20:34:34.8364 ERROR Books - Create: An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1367fc75-82c8-4201-b93b-78053ae631d2
+Error Number:547,State:0,Class:16
+2020-09-21 20:35:18.0973 INFO Author submission attempted
+2020-09-21 20:35:18.2667 INFO Author created
+2020-09-21 20:35:30.3346 INFO Attempted Get All Authors
+2020-09-21 20:35:30.6059 INFO Successfully got all Authors
+2020-09-21 20:35:42.6571 INFO Books - Create: Create Attempted
+2020-09-21 20:35:42.6767 INFO Books - Create: Book created
+2020-09-21 20:36:18.2178 INFO Books - GetBooks: Attempted call
+2020-09-21 20:36:18.4265 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-09-21 20:37:15.7274 INFO Books - GetBooks: Attempted call
+2020-09-21 20:41:44.6408 INFO Books - GetBooks: Attempted call
+2020-09-21 20:52:15.6862 INFO Books - GetBooks: Attempted call
+2020-09-21 20:52:17.5859 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-09-21 20:59:47.8439 INFO Books - GetBooks: Attempted call
+2020-09-21 20:59:49.4974 INFO Books - GetBooks: Successful
+2020-09-21 21:09:42.5145 INFO Attempted Get All Authors
+2020-09-21 21:09:44.1730 INFO Successfully got all Authors
+2020-09-21 21:09:50.0722 INFO Books - GetBooks: Attempted call
+2020-09-21 21:09:50.1684 INFO Books - GetBooks: Successful
