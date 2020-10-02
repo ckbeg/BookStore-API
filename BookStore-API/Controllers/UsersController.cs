@@ -33,6 +33,34 @@ namespace BookStore_API.Controllers {
             _logger = logger;
             _config = config;
         }
+
+        [Route("register")]
+        [HttpPost]
+        [AllowAnonymous]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> Register([FromBody] UserDTO userDTO) {
+            var location = GetControllerActionNames();
+            try {
+                var username = userDTO.EmailAddress;
+                var password = userDTO.Password;
+                _logger.LogInfo($"{location}: Registration Attempt for {username} ");
+
+                var user = new IdentityUser{Email = username, UserName = username};
+                var result = await _userManager.CreateAsync(user, password);
+
+                if (!result.Succeeded) {
+                    foreach (var error in result.Errors) {
+                        _logger.LogError($"{location}: {error.Code} {error.Description}");
+                    }
+                    return InternalError($"{location}: {username} User registration attempt failed");
+                }
+
+                return Ok(new {result.Succeeded});
+            } catch (Exception e) {
+                return InternalError($"{location}: {e.Message} - {e.InnerException}");
+            }
+        }
+
         /// <summary>
         /// User login endpoint
         /// </summary>
@@ -51,7 +79,7 @@ namespace BookStore_API.Controllers {
 
                 if (result.Succeeded) {
                     _logger.LogInfo($"{location}: {username} Successfully Authenticated");
-                    var user = await _userManager.FindByEmailAsync(username);
+                    var user = await _userManager.FindByNameAsync(username);
                     _logger.LogInfo($"{location}: Generating Token");
                     var tokenString = await GenerateJSONWebToken(user);
                     return Ok(new { token = tokenString });

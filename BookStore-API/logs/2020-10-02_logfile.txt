@@ -1,0 +1,44 @@
+2020-10-02 09:45:38.3923 INFO Users - Register: Registration Attempt for chingis@tengizchevroil.com 
+2020-10-02 09:46:07.0743 ERROR Users - Register: PasswordRequiresNonAlphanumeric Passwords must have at least one non alphanumeric character.
+2020-10-02 09:46:08.2125 ERROR Users - Register: PasswordRequiresLower Passwords must have at least one lowercase ('a'-'z').
+2020-10-02 09:46:09.1963 ERROR Users - Register: PasswordRequiresUpper Passwords must have at least one uppercase ('A'-'Z').
+2020-10-02 09:46:10.0676 ERROR Users - Register: chingis@tengizchevroil.com User registration attempt failed
+2020-10-02 09:48:01.3656 INFO Users - Register: Registration Attempt for chingis@tengizchevroil.com 
+2020-10-02 09:48:12.4331 ERROR Users - Register: PasswordRequiresNonAlphanumeric Passwords must have at least one non alphanumeric character.
+2020-10-02 09:48:12.4542 ERROR Users - Register: chingis@tengizchevroil.com User registration attempt failed
+2020-10-02 09:48:27.0511 INFO Users - Register: Registration Attempt for chingis@tengizchevroil.com 
+2020-10-02 09:49:17.1305 INFO Users - Register: Registration Attempt for ckbeg1705@gmail.com 
+2020-10-02 09:49:19.8690 ERROR Users - Register: PasswordRequiresNonAlphanumeric Passwords must have at least one non alphanumeric character.
+2020-10-02 09:49:19.8690 ERROR Users - Register: PasswordRequiresLower Passwords must have at least one lowercase ('a'-'z').
+2020-10-02 09:49:19.8883 ERROR Users - Register: PasswordRequiresUpper Passwords must have at least one uppercase ('A'-'Z').
+2020-10-02 09:49:19.8895 ERROR Users - Register: ckbeg1705@gmail.com User registration attempt failed
+2020-10-02 14:56:22.4547 INFO Users - Register: Registration Attempt for ckbeg1705@gmail.com 
+2020-10-02 15:53:52.0462 INFO Users - Login: Login Attempt from user chingis@tengizchevroil.com 
+2020-10-02 15:53:52.3253 INFO Users - Login: chingis@tengizchevroil.com Successfully Authenticated
+2020-10-02 15:53:52.3289 INFO Users - Login: Generating Token
+2020-10-02 15:54:56.6104 INFO Users - Login: Login Attempt from user chingis@tengizchevroil.com 
+2020-10-02 15:54:56.8826 INFO Users - Login: chingis@tengizchevroil.com Successfully Authenticated
+2020-10-02 15:54:56.8826 INFO Users - Login: Generating Token
+2020-10-02 16:09:53.8114 INFO Users - Login: Login Attempt from user chingis@tengizchevroil.com 
+2020-10-02 16:09:54.0898 INFO Users - Login: chingis@tengizchevroil.com Successfully Authenticated
+2020-10-02 16:09:54.0930 INFO Users - Login: Generating Token
+2020-10-02 16:25:48.0160 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-02 16:25:48.1390 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-02 16:26:04.6128 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-02 16:26:04.6392 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-02 16:26:09.4211 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-02 16:26:09.4211 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-02 16:26:27.3637 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-02 16:26:27.3843 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-02 16:26:29.8381 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-02 16:26:29.8465 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-02 16:26:57.2269 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-10-02 16:26:57.2349 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-10-02 16:33:26.0248 INFO Users - Login: Login Attempt from user chingis@tengizchevroil.com 
+2020-10-02 16:33:26.0967 INFO Users - Login: chingis@tengizchevroil.com Not Authenticated
+2020-10-02 16:33:41.8084 INFO Users - Login: Login Attempt from user chingis@tengizchevroil.com 
+2020-10-02 16:33:41.9980 INFO Users - Login: chingis@tengizchevroil.com Successfully Authenticated
+2020-10-02 16:33:42.0013 INFO Users - Login: Generating Token
+2020-10-02 16:35:00.9260 INFO Users - Login: Login Attempt from user ckbeg1705@gmail.com 
+2020-10-02 16:35:00.9650 INFO Users - Login: ckbeg1705@gmail.com Successfully Authenticated
+2020-10-02 16:35:00.9783 INFO Users - Login: Generating Token

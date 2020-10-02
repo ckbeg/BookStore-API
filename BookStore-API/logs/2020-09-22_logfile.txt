@@ -32,3 +32,9 @@ Error Number:547,State:0,Class:16
 2020-09-22 16:02:41.8424 INFO Users - Login: Login Attempt from user customer1@gmail.com 
 2020-09-22 16:02:41.9028 INFO Users - Login: customer1@gmail.com Not Authenticated
 2020-09-22 16:03:26.8856 INFO Users - Login: Login Attempt from user customer1@gmail.com 
+2020-09-22 16:21:10.9047 INFO Users - Login: Login Attempt from user customer1 
+2020-09-22 16:21:11.2013 INFO Users - Login: customer1 Successfully Authenticated
+2020-09-22 16:21:11.2020 INFO Users - Login: Generating Token
+2020-09-22 16:21:50.6095 INFO Users - Login: Login Attempt from user customer1 
+2020-09-22 16:22:04.4237 INFO Users - Login: customer1 Successfully Authenticated
+2020-09-22 16:22:19.9316 INFO Users - Login: Generating Token
