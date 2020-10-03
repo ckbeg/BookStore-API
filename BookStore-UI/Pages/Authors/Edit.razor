@@ -1,0 +1,69 @@
+﻿@page "/authors/edit/{Id}"
+@using BookStore_UI.Static
+@inject IAuthorRepository _repo;
+@inject NavigationManager _navManager;
+
+<h3 class="card-title">Edit Author</h3>
+<br />
+<hr />
+<br />
+
+@if (isFailed) {
+    <ErrorMessage Message="Something went wrong with the operation" />
+}
+
+@if (Model == null) {
+    <LoadingMessage Message="Loading Author For Edit"></LoadingMessage>
+} else {
+    <EditForm Model="Model" OnValidSubmit="EditAuthor">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="form-group">
+            <label for="firstname">First Name</label>
+            <InputText @bind-Value="Model.Firstname" class="form-control" id="firstname" />
+        </div>
+        <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <InputText @bind-Value="Model.Lastname" class="form-control" id="lastname" />
+        </div>
+        <div class="form-group">
+            <label for="bio">Biography</label>
+            <InputText @bind-Value="Model.Bio" class="form-control" id="bio" />
+        </div>
+        <button class="btn btn-primary" type="submit">
+            <span class="oi oi-pencil"></span>
+            Submit Changes
+        </button>
+        <button @onclick="BackToList"><span class="oi oi-media-skip-backward"></span>Back To List</button>
+    </EditForm>
+}
+
+
+<br />
+@code {
+    [Parameter]
+    public string Id { get; set; }
+
+    private Author Model = new Author();
+    private bool isFailed = false;
+
+    protected override async Task OnInitializedAsync() {
+        Model = await _repo.Get(Endpoints.AuthorsEndpoint, Int32.Parse(Id));
+    }
+
+    private async Task EditAuthor() {
+        var id = int.Parse(Id);
+        bool isSuccess = await _repo.Update(Endpoints.AuthorsEndpoint, Model, id);
+        if (isSuccess) {
+            BackToList();
+        } else {
+            isFailed = true;
+        }
+    }
+
+    private void BackToList() {
+        _navManager.NavigateTo("/authors/");
+    }
+
+
+}

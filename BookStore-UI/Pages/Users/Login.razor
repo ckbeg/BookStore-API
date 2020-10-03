@@ -1,15 +1,12 @@
 ﻿@page "/login"
-@using BookStore_UI.Contracts
-@using BookStore_UI.Models
+
 @inject IAuthenticationRepository _authRepo;
 @inject NavigationManager _navManager;
 
 
 <h3 class="card-title">Login Now</h3>
 @if (!response) {
-    <div class="alert alert-danger">
-        <p>There is something happened went wrong with login attempt</p>
-    </div>
+    <ErrorMessage Message="There is something happened went wrong with login attempt"/>
 }
 <div class="card-body">
     <EditForm Model="Model" OnValidSubmit="HandleLogin">

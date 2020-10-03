@@ -42,3 +42,8 @@
 2020-10-02 16:35:00.9260 INFO Users - Login: Login Attempt from user ckbeg1705@gmail.com 
 2020-10-02 16:35:00.9650 INFO Users - Login: ckbeg1705@gmail.com Successfully Authenticated
 2020-10-02 16:35:00.9783 INFO Users - Login: Generating Token
+2020-10-02 20:57:23.0644 INFO Users - Login: Login Attempt from user chingis@tengizchevroil.com 
+2020-10-02 20:57:23.3487 INFO Users - Login: chingis@tengizchevroil.com Successfully Authenticated
+2020-10-02 20:57:23.3487 INFO Users - Login: Generating Token
+2020-10-02 21:11:44.4206 INFO Attempted Get All Authors
+2020-10-02 21:11:44.5947 INFO Successfully got all Authors

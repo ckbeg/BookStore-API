@@ -1,0 +1,197 @@
+2020-10-03 16:01:59.6245 INFO Users - Login: Login Attempt from user chingis@tengizchevroil.com 
+2020-10-03 16:01:59.9359 INFO Users - Login: chingis@tengizchevroil.com Successfully Authenticated
+2020-10-03 16:01:59.9366 INFO Users - Login: Generating Token
+2020-10-03 16:02:07.0051 INFO Attempted Get All Authors
+2020-10-03 16:02:07.0954 INFO Successfully got all Authors
+2020-10-03 16:02:15.4648 INFO Attempted to get author with id: 2
+2020-10-03 16:02:15.5045 INFO Successfully got author with id: 2
+2020-10-03 16:19:51.4375 INFO Attempted Get All Authors
+2020-10-03 16:19:51.5990 INFO Successfully got all Authors
+2020-10-03 16:19:53.7682 INFO Attempted to get author with id: 2
+2020-10-03 16:19:53.8318 INFO Successfully got author with id: 2
+2020-10-03 16:20:09.4395 INFO Attempted Get All Authors
+2020-10-03 16:20:09.4573 INFO Successfully got all Authors
+2020-10-03 16:20:11.4606 INFO Attempted to get author with id: 3
+2020-10-03 16:20:11.4695 INFO Successfully got author with id: 3
+2020-10-03 16:20:13.2925 INFO Attempted Get All Authors
+2020-10-03 16:20:13.2996 INFO Successfully got all Authors
+2020-10-03 16:20:20.7538 INFO Attempted to get author with id: 2
+2020-10-03 16:20:20.7538 INFO Successfully got author with id: 2
+2020-10-03 16:21:11.0474 INFO Attempted Get All Authors
+2020-10-03 16:21:11.2136 INFO Successfully got all Authors
+2020-10-03 16:22:08.5012 INFO Attempted Get All Authors
+2020-10-03 16:22:08.6623 INFO Successfully got all Authors
+2020-10-03 16:22:22.2313 INFO Attempted to get author with id: 2
+2020-10-03 16:22:22.2835 INFO Successfully got author with id: 2
+2020-10-03 16:22:41.3750 INFO Attempted Get All Authors
+2020-10-03 16:22:41.3750 INFO Successfully got all Authors
+2020-10-03 16:34:30.7051 INFO Attempted Get All Authors
+2020-10-03 16:34:30.8699 INFO Successfully got all Authors
+2020-10-03 16:34:33.0714 INFO Attempted to get author with id: 2
+2020-10-03 16:34:33.1261 INFO Successfully got author with id: 2
+2020-10-03 16:34:36.8193 INFO Attempted Get All Authors
+2020-10-03 16:34:36.8282 INFO Successfully got all Authors
+2020-10-03 16:34:38.3561 INFO Attempted to get author with id: 3
+2020-10-03 16:34:38.3657 INFO Successfully got author with id: 3
+2020-10-03 17:05:29.4689 INFO Attempted Get All Authors
+2020-10-03 17:05:29.6315 INFO Successfully got all Authors
+2020-10-03 17:05:34.4288 INFO Attempted to get author with id: 2
+2020-10-03 17:05:34.4911 INFO Successfully got author with id: 2
+2020-10-03 17:05:36.0962 INFO Attempted Get All Authors
+2020-10-03 17:05:36.0962 INFO Successfully got all Authors
+2020-10-03 17:05:37.6281 INFO Attempted to get author with id: 2
+2020-10-03 17:05:37.6281 INFO Successfully got author with id: 2
+2020-10-03 17:07:47.8062 INFO Attempted Get All Authors
+2020-10-03 17:07:47.8144 INFO Successfully got all Authors
+2020-10-03 17:12:31.2683 INFO Attempted Get All Authors
+2020-10-03 17:12:31.4352 INFO Successfully got all Authors
+2020-10-03 17:12:33.4552 INFO Attempted to get author with id: 2
+2020-10-03 17:12:33.5115 INFO Successfully got author with id: 2
+2020-10-03 17:12:35.6971 INFO Attempted Get All Authors
+2020-10-03 17:12:35.7063 INFO Successfully got all Authors
+2020-10-03 17:12:37.1424 INFO Attempted to get author with id: 2
+2020-10-03 17:12:37.1424 INFO Successfully got author with id: 2
+2020-10-03 17:12:45.4603 INFO Author update attempted - id: 2
+2020-10-03 17:12:45.6742 INFO Author id: 2 successfully updated
+2020-10-03 17:12:45.7427 INFO Attempted Get All Authors
+2020-10-03 17:12:45.7427 INFO Successfully got all Authors
+2020-10-03 17:12:48.2940 INFO Attempted to get author with id: 2
+2020-10-03 17:12:48.3028 INFO Successfully got author with id: 2
+2020-10-03 17:14:58.7684 INFO Attempted Get All Authors
+2020-10-03 17:14:58.7684 INFO Successfully got all Authors
+2020-10-03 17:15:00.4054 INFO Attempted to get author with id: 3
+2020-10-03 17:15:00.4054 INFO Successfully got author with id: 3
+2020-10-03 17:15:01.6151 INFO Attempted Get All Authors
+2020-10-03 17:15:01.6240 INFO Successfully got all Authors
+2020-10-03 17:15:02.2958 INFO Attempted to get author with id: 3
+2020-10-03 17:15:02.2958 INFO Successfully got author with id: 3
+2020-10-03 17:15:08.6799 INFO Author update attempted - id: 3
+2020-10-03 17:15:08.7356 INFO Attempted Get All Authors
+2020-10-03 17:15:08.7492 INFO Author id: 3 successfully updated
+2020-10-03 17:15:08.7492 INFO Successfully got all Authors
+2020-10-03 17:48:07.7997 INFO Attempted Get All Authors
+2020-10-03 17:48:07.9621 INFO Successfully got all Authors
+2020-10-03 17:48:11.5203 INFO Attempted to get author with id: 2
+2020-10-03 17:48:11.5749 INFO Successfully got author with id: 2
+2020-10-03 17:48:16.8224 INFO Author delete attempted - id: 2
+2020-10-03 17:48:17.4250 ERROR An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Books", column 'AuthorId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:3bfded59-8dec-4c91-8ec3-519d1e783270
+Error Number:547,State:0,Class:16
+2020-10-03 17:48:57.8527 INFO Author delete attempted - id: 2
+2020-10-03 17:48:58.1754 ERROR An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Books", column 'AuthorId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:3bfded59-8dec-4c91-8ec3-519d1e783270
+Error Number:547,State:0,Class:16
+2020-10-03 17:50:18.2876 INFO Author delete attempted - id: 2
+2020-10-03 17:50:46.1865 ERROR An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Books", column 'AuthorId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:3bfded59-8dec-4c91-8ec3-519d1e783270
+Error Number:547,State:0,Class:16
+2020-10-03 17:51:46.7115 INFO Author delete attempted - id: 2
+2020-10-03 17:52:10.4775 ERROR An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Books", column 'AuthorId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:3bfded59-8dec-4c91-8ec3-519d1e783270
+Error Number:547,State:0,Class:16
+2020-10-03 17:53:22.2170 INFO Attempted Get All Authors
+2020-10-03 17:53:22.3843 INFO Successfully got all Authors
+2020-10-03 17:53:25.2515 INFO Attempted to get author with id: 3
+2020-10-03 17:53:25.3082 INFO Successfully got author with id: 3
+2020-10-03 17:53:26.3601 INFO Author delete attempted - id: 3
+2020-10-03 17:53:35.8047 INFO Author id: 3 successfully deleted
+2020-10-03 17:53:42.8049 INFO Attempted Get All Authors
+2020-10-03 17:53:42.8224 INFO Successfully got all Authors
+2020-10-03 21:46:05.4705 INFO Users - Login: Login Attempt from user chingis@tengizchevroil.com 
+2020-10-03 21:46:05.6181 INFO Users - Login: chingis@tengizchevroil.com Not Authenticated
+2020-10-03 21:46:15.3603 INFO Users - Login: Login Attempt from user chingis@tengizchevroil.com 
+2020-10-03 21:46:15.5362 INFO Users - Login: chingis@tengizchevroil.com Successfully Authenticated
+2020-10-03 21:46:15.5362 INFO Users - Login: Generating Token
+2020-10-03 21:46:18.5273 INFO Attempted Get All Authors
+2020-10-03 21:46:18.6023 INFO Successfully got all Authors
+2020-10-03 21:47:00.9377 INFO Attempted Get All Authors
+2020-10-03 21:47:01.1052 INFO Successfully got all Authors
+2020-10-03 21:49:32.8259 INFO Attempted Get All Authors
+2020-10-03 21:49:32.8437 INFO Successfully got all Authors
+2020-10-03 21:50:08.0319 INFO Attempted Get All Authors
+2020-10-03 21:50:08.2048 INFO Successfully got all Authors
+2020-10-03 21:55:39.0461 INFO Attempted Get All Authors
+2020-10-03 21:55:39.2091 INFO Successfully got all Authors
+2020-10-03 21:58:54.4088 INFO Attempted Get All Authors
+2020-10-03 21:58:54.5799 INFO Successfully got all Authors
+2020-10-03 22:00:13.5340 INFO Attempted Get All Authors
+2020-10-03 22:00:13.6980 INFO Successfully got all Authors
+2020-10-03 22:00:28.2237 INFO Author submission attempted
+2020-10-03 22:00:34.8028 INFO Author created
+2020-10-03 22:00:47.9311 INFO Attempted Get All Authors
+2020-10-03 22:00:47.9500 INFO Successfully got all Authors
+2020-10-03 22:01:29.1214 INFO Author submission attempted
+2020-10-03 22:01:29.1448 INFO Author created
+2020-10-03 22:01:29.1838 INFO Attempted Get All Authors
+2020-10-03 22:01:29.1888 INFO Successfully got all Authors
+2020-10-03 22:26:15.2333 INFO Attempted Get All Authors
+2020-10-03 22:26:15.4124 INFO Successfully got all Authors
+2020-10-03 22:26:29.5089 INFO Users - Login: Login Attempt from user ckbeg1705@gmail.com 
+2020-10-03 22:26:29.7157 INFO Users - Login: ckbeg1705@gmail.com Successfully Authenticated
+2020-10-03 22:26:29.7184 INFO Users - Login: Generating Token
+2020-10-03 22:26:33.1633 INFO Attempted Get All Authors
+2020-10-03 22:26:33.1710 INFO Successfully got all Authors
+2020-10-03 22:42:17.5308 INFO Attempted Get All Authors
+2020-10-03 22:42:17.8188 INFO Successfully got all Authors
+2020-10-03 22:44:03.1802 INFO Attempted to get author with id: 2
+2020-10-03 22:44:03.2406 INFO Successfully got author with id: 2
+2020-10-03 22:44:06.3203 INFO Attempted Get All Authors
+2020-10-03 22:44:06.3289 INFO Successfully got all Authors
+2020-10-03 22:44:07.2389 INFO Attempted to get author with id: 5
+2020-10-03 22:44:07.2389 INFO Successfully got author with id: 5
+2020-10-03 22:44:08.2354 INFO Attempted Get All Authors
+2020-10-03 22:44:08.2354 INFO Successfully got all Authors
+2020-10-03 22:44:08.9853 INFO Attempted to get author with id: 6
+2020-10-03 22:44:08.9853 INFO Successfully got author with id: 6
+2020-10-03 22:44:10.5515 INFO Attempted Get All Authors
+2020-10-03 22:44:10.5515 INFO Successfully got all Authors
+2020-10-03 22:44:11.4174 INFO Attempted to get author with id: 2
+2020-10-03 22:44:11.4280 INFO Successfully got author with id: 2

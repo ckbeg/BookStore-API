@@ -10,9 +10,8 @@
 <h3 class="card-title">Register Now</h3>
 @if (!response)
 {
-    <div class="alert-danger">
-        <p>There is something happened with registration</p>
-    </div>
+        
+    <ErrorMessage Message="There is something happened with registration"/>
 }
 <div class="card-body">
     <EditForm Model="Model" OnValidSubmit="HandleRegistration">
